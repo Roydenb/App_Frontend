@@ -31,12 +31,12 @@
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form id="ulogin" onsubmit="event.preventDefault(); ">
+            <form id="ulogin" onsubmit="event.preventDefault(); adminLogin() ">
                 <h1>Sign in</h1>
                 <span>Look at what's new</span>
                 <input type="email" placeholder="Email" name="email">
                 <input type="password" placeholder="Mobile" name="mobile">
-                <a href="../FLASK_APP_front/contact _admin.html">Forgot your password?</a>
+                <!-- <a href="../FLASK_APP_front/contact _admin.html">Forgot your password?</a> -->
                 <button type="submit">Sign In</button>
             </form>
         </div>
@@ -50,12 +50,13 @@
                 <div class="overlay-panel overlay-right">
                     <h1>Hello, Friend!</h1>
                     <p>create your account and have a look at what we have in store for you</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
+                    <button class="ghost" id="signUp" type="submit">Sign Up</button>
                 </div>
             </div>
         </div>
     </div>
     <script src="./assets/js/user.js"></script>
     <script src="./assets/js/createUser.js"></script>
+    <script src="./assets/js/admin_login.js"></script>
 </body>
 </html>

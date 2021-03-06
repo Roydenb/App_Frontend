@@ -5,19 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Users</title>
   <link rel="stylesheet" href="./assets/styles/show_users_admin.css">
-  <link rel="stylesheet" href="assets/styles/preload.css">
+  <link rel="stylesheet" href="assets/styles/landing_page.css">
+
 
 </head>
 
 <body>
 
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="loader"></div>
-  </div>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul class="nav-link__container">
+        <li class="nav-list"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-list"><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li class="nav-list"><a class="nav-link" href="./contact.html">CONTACT</a></li>
+        <li class="nav-list"><a href="#user" target="_" class="nav-link">User</a></li>
+        <li class="nav-list"><a href="admin_show_admin.html" target="_" class="nav-link">Admin</a></li>
+        
+      </ul>
+    </nav>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <img src="./assets/img/Inka.jpg" alt="Logo" id="header-img" />
+        <span class="heading-primary-main">Inka</span>
+        <span class="heading-primary-sub">artist ambision, enginere mindset.<span id="coverLine">Thinka Inka.</span></span>
+      </h1>
+    </div>
+  
+  </header>
+   
 
-  <table>
-    <caption>Statement Summary</caption>
+  <br>
+
+  <table id="user">
+    <caption>USERS</caption>
     <thead>
       <tr>
         <th scope="col">Name</th>
@@ -26,27 +46,9 @@
         <th scope="col">Mobile</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td data-label="Name">Roy </td>
-        <td data-label="Surname">HLjjpojo</td>
-        <td data-label="Email">kjhopjp@gmail.com</td>
-        <td data-label="Mobile">68700909</td>
-      </tr>
-      <tr>
-        <td data-label="Name">Roy </td>
-        <td data-label="Surname">HLjjpojo</td>
-        <td data-label="Email">kjhopjp@gmail.com</td>
-        <td data-label="Mobile">68700909</td>
-      </tr>
-      <tr>
-        <td data-label="Name">Roy </td>
-        <td data-label="Surname">HLjjpojo</td>
-        <td data-label="Email">kjhopjp@gmail.com</td>
-        <td data-label="Mobile">68700909</td>
-      </tr>
-      
-    </tbody>
+    <tbody id="admin-content"></tbody>
   </table>
+
+  <script src="./assets/js/display_admin.js"></script>
 </body>
 </html>
