@@ -1,4 +1,4 @@
-const url= " https://pokeapi.co/api/v2/pokemon"
+// const url= " https://pokeapi.co/api/v2/pokemon"
 
 
 // FOR THE MOVEMENT OF THE SLIDES OF THE CARDS
