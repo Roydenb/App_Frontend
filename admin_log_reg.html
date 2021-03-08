@@ -26,14 +26,14 @@
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form  >
+            <form id="alogin" onsubmit="event.preventDefault(); adminLogin()">
                 <h1>ADMIN</h1>
                <div id="login">
                 <span>It's time to login</span>
                 <input type="email" placeholder="Email" name="adm_email">
                 <input type="password" placeholder="Password" name="adm_pass">
-                <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
+                <!-- <a href="#">Forgot your password?</a> -->
+                <button type="submit">Sign In</button>
                 </div>
             </form> 
         </div>
@@ -53,8 +53,10 @@
         </div>
     </div>
 
-    <script src="assets/js/admin_login.js"></script>
+    <script src="assets/js/admin_login_account.js"></script>
     <script src="assets/js/createAdmin.js"></script>
+    <script src="assets/js/admin_slide.js"></script>
+
 
 </body>
 </html>

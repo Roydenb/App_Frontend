@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Users</title>
+  <title>Admin</title>
   <link rel="stylesheet" href="./assets/styles/show_users_admin.css">
   <link rel="stylesheet" href="assets/styles/landing_page.css">
 
@@ -18,8 +18,8 @@
         <li class="nav-list"><a href="#home" class="nav-link">Home</a></li>
         <li class="nav-list"><a href="about.html" class="nav-link">ABOUT</a></li>
         <li class="nav-list"><a class="nav-link" href="./contact.html">CONTACT</a></li>
-        <li class="nav-list"><a href="#user" target="_" class="nav-link">User</a></li>
-        <li class="nav-list"><a href="admin_show_admin.html" target="_" class="nav-link">Admin</a></li>
+        <li class="nav-list"><a href="admin_show_users.html" target="_" class="nav-link">User</a></li>
+        <li class="nav-list"><a href="#admintable" target="_" class="nav-link">Admin</a></li>
         
       </ul>
     </nav>
@@ -32,18 +32,19 @@
     </div>
   
   </header>
-   
 
-  <br>
+  <div class="main-content">
+    <div class=" main__content-bg" id="about">
+      <h1 class="main__content-header">USERS</h1>
+    </div>
 
-  <table id="user">
-    <caption>USERS</caption>
+  <table id="admintable">
     <thead>
       <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Surname</th>
-        <th scope="col">Email</th>
-        <th scope="col">Mobile</th>
+        <th scope="col">Name: </th>
+        <th scope="col">Surname: </th>
+        <th scope="col">Email: </th>
+        <th scope="col">Password: </th>
       </tr>
     </thead>
     <tbody id="admin-content"></tbody>

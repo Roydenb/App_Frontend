@@ -7,8 +7,8 @@ fetch("http://127.0.0.1:5000/userdata/")
 })
 
 function userLogin(){
-    let loginForm = document.getElementById("ulogin");
-    let inputs = loginForm.getElementsByTagName('input');
+    let login = document.getElementById("ulogin");
+    let inputs = login.getElementsByTagName('input');
 
     let input_email = inputs[0].value;
     let user_mobile = inputs[1].value;

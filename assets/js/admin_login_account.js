@@ -29,7 +29,7 @@ function adminLogin(){
 
     if (loggedIn.length > 0) {
         alert('YOU SUCCESFULLY LOGGED IN');
-        window.location.href='./admin_log_reg.html'
+        window.location.href='./admin_show_users.html'
     } else{
         alert('INVALID LOGIN DETAILS');
     }
