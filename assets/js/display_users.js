@@ -1,4 +1,4 @@
-fetch("http://127.0.0.1:5000/userdata")
+fetch("https://enigmatic-meadow-17195.herokuapp.com/userdata")
 .then(res => res.json())
 .then(data => {
     console.log(data)

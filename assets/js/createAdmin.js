@@ -2,7 +2,7 @@ function createAdmin() {
     const form = document.getElementById("create_admin");
     const inputs = form.getElementsByTagName("input");
 
-    fetch("http://127.0.0.1:5000/addadmin/", {
+    fetch("https://enigmatic-meadow-17195.herokuapp.com/addadmin/", {
     method: "POST",
     body: JSON.stringify({
         adm_name: inputs[0].value,

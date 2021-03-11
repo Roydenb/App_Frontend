@@ -1,6 +1,3 @@
-// const url= " https://pokeapi.co/api/v2/pokemon"
-
-
 // FOR THE MOVEMENT OF THE SLIDES OF THE CARDS
 // FROM LEFT TO RIGHT
 const signUpButton = document.getElementById('signUp');

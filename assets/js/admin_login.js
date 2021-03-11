@@ -5,7 +5,7 @@ let admins = [];
 // let Admin;
 
 
-fetch("http://127.0.0.1:5000/admindata/")
+fetch("https://enigmatic-meadow-17195.herokuapp.com/admindata/")
 .then((response)=> response.json())
 .then((data)=>{
     console.log(data)
