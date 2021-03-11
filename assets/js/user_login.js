@@ -22,7 +22,7 @@ function userLogin(){
 
     if (loggedIn.length > 0) {
         alert('YOU SUCCESFULLY LOGGED IN');
-        window.location.href='./logged_in.html'
+        window.location.href='./logged_in_user_account.html'
     } else{
         alert('INVALID LOGIN DETAILS');
     }
