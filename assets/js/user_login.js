@@ -1,5 +1,5 @@
 let Users;
-fetch("http://127.0.0.1:5000/userdata/")
+fetch("https://enigmatic-meadow-17195.herokuapp.com/userdata/")
 .then((response)=> response.json())
 .then((data)=>{
     users = data;
