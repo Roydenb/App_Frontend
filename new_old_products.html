@@ -6,18 +6,22 @@
     <title>Our | Products</title>
     <link rel="stylesheet" href="./assets/styles/landing_page.css">
     <link rel="stylesheet" href="./assets/styles/footer_nav.css">
+    <link rel="stylesheet" href="./assets/styles/preload.css">
+
 
 </head>
 <body>
+ <!-- Preloader -->
+ <div class="preloader">
+  <div class="loader"></div>
+  </div> 
 
     <header id="header">
         <nav id="nav-bar">
           <ul class="nav-link__container">
-            <li class="nav-list"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="#home" class="nav-link">HOME</a></li>
             <li class="nav-list"><a href="about.html" class="nav-link">ABOUT</a></li>
-            <li class="nav-list"><a class="nav-link">CONTACT</a></li>
-            <li class="nav-list"><a href="user_log_reg.html" target="_" class="nav-link">User</a></li>
-            <li class="nav-list"><a href="admin_log_reg.html" target="_" class="nav-link">Admin</a></li>
+            <li class="nav-list"><a href="contact.html">CONTACT</a></li>
             
           </ul>
         </nav>
@@ -33,8 +37,8 @@
     <!-- OLD PRODUCT SECTION -->
   <main class="content-container">
     <div class="main-content">
-      <div class=" main__content-bg" id="coffee">
-        <h1 class="main__content-header">Our Old Products</h1>
+      <div class=" main__content-bg">
+        <h1 class="main__content-header">OLD | PRODUCTS</h1>
       </div>
       <div class="main__content-flex"> 
         <!-- START OF FLEX-CONTAINERS -->
@@ -70,11 +74,11 @@
         </div> 
 
 <!-- NEW PRODUCT SECTION -->
-  <main class="content-container">
-    <div class="main-content">
-      <div class=" main__content-bg" id="coffee">
-        <h1 class="main__content-header">Our New products</h1>
-      </div>
+<main class="content-container">
+  <div class="main-content">
+    <div class=" main__content-bg">
+      <h1 class="main__content-header">NEW</h1>
+    </div>
       <div class="main__content-flex"> 
 
         <!-- START OF FLEX-CONTAINERS -->
@@ -120,9 +124,10 @@
 
 <footer>
     <div class="navbar">
-      <a href="index.html" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
+      <!-- <a href="index.html" class="active">HOME</a> -->
+      <a href="user_log_reg.html">USER</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="new_old_products.html">GO BACK TO TOP</a>
     </div> 
   </footer>
   
